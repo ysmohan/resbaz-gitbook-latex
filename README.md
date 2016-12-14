@@ -19,7 +19,7 @@ He created a programming language called _TeX_ (pronounced "tech") intended to
 automatically typeset mathematical content,
 with strong principles of beauty foremost in mind.
 
-TeX was very good at position type on a page,
+TeX was very good at positioning type on a page,
 but not so good at keeping track of a document's overall structure.
 To have chapters, sections, figures, tables of contents and references required non-trivial programming.
 

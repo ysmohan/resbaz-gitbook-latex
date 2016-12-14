@@ -1,4 +1,4 @@
-﻿LaTeX
+LaTeX
 ====
 
 Introduction

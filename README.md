@@ -9,9 +9,11 @@ LaTeX is a programming language for beautiful typesetting.
 
 ### Learning objectives
 
-1. Understand what LaTeX is and how it compares to other document creation tools.
-2. Understand the basic structure of any LaTeX document.
-3. Understand the applicability of LaTeX in a wide variety of disciplines.
+After reading this chapter, you will understand:
+
+1. What LaTeX is and how it compares to other document creation systems.
+2. The basic structure of any LaTeX document.
+3. The applicability of LaTeX in a wide variety of disciplines.
 
 
 Background and context
@@ -113,10 +115,9 @@ the output PDF will only show the words "Hello world!".
 The compiler knows that some commands are not intended for reading by the audience.
 
 Sometimes you want to leave a note to yourself or your collaborators.
-It is possible to hide part of your source code from the compiler using a _comment_.
-Using comments is quite common in all programming languages.
+It is possible to hide part of your source code from the compiler using _comments_.
 In LaTeX, anything which appears after a percent sign, "`%`",
-will be treated as a comment.
+will be regarded as a comment, so will not show up in the final document.
 
 ~~~{.tex}
 \documentclass{article} % Instead of "article", we could put something like "report", which will completely change the appearance of the final document.
@@ -131,10 +132,16 @@ Hello world! % Even with all these comments, your audience will still see nothin
 \end{document}
 ~~~
 
-Later, it will be useful to know that the `\begin` and `\end` commands are used
-a lot in LaTeX to fence _environments_.
-Every LaTeX project has a _document_ environment, to tell LaTeX which part
-of the project contains content intended for the audience.
+Later, it will be useful to know that the `\begin` and `\end` commands used here
+fence _environments_.
+Environments are a bit like the curly brackets mentioned earlier:
+they help group parts of your code together.
+Many environments also automatically run extra commands at their beginning and end.
+
+Similar to the example given here,
+every LaTeX project has a _document_ environment.
+The document environment is intended to be the part of your LaTeX project that
+is most visible to your audience.
 
 
 ### An epsilon of mathematics
@@ -190,21 +197,23 @@ the hat symbol `^` and the command `\pi`.
 
 In math mode, the hat symbol means "raise whatever comes next".
 Usually, this means to superscript it.
+Only "usually", since depending on the context LaTeX will do some fancy magic to
+make things look even more beautiful than a regular superscript.
+
 Meanwhile, `\pi` means to insert the character _π_.
 Since Greek letters are used so often in mathematics,
 you can enter them in LaTeX by putting a backslash in front of their English name.
 
 In the second equation, we need to use the command `\lim`,
 since not only does this stand for a formal mathematical concept,
-but also we can't use normal mode text while in math mode.
+but also because we want it to look like normal mode text even though we're in math mode.
 We also notice another Greek letter entered with `\epsilon`,
 and a command to enter an arrow symbol.
 
 Finally, the underscore character, `_`, is kind of the opposite of '^'.
 It means _lower_ whatever comes next.
-Usually it will turn whatever comes next into a subscript,
-but when used with special commands like `\lim` it works a little differently,
-as shown in the output.
+Usually it will turn whatever comes next into a subscript.
+We can see that when used with the special command `\lim` it works differently.
 
 
 ### A vector for poetry

@@ -294,11 +294,32 @@ You have already learned:
 2. Some programming concepts like compiling and commenting source code.
 3. Some LaTeX-specific concepts like environments and math mode.
 
+To find out more about LaTeX, there are a lot of free resources available online.
+Principle of these is the so-called _lshort_, or _The not so short introduction to LaTeX2ε_, by Tobias Oetiker[1].
+This is free to download in PDF form, and is kept close by all LaTeX users from novice to advanced.
+Another accessible online resource is the ShareLaTeX documentation[2].
+
+If you become a more serious long-term LaTeX user,
+there are some classic texts you might consider purchasing in hardcopy.
+Don Knuth's _TeXbook_[3] started it all off and gives a lot of insight into the hidden anatomy of LaTeX.
+Leslie Lamport's _LaTeX_ book[4] gives an overview of traditional LaTeX usage.
+Finally, _The LaTeX Companion_ by Mittelbach, Goosens, et al.[5] is a very comprehensive tome,
+covering a wide variety of modern packages and examples for advanced LaTeX customisation.
+
+In Research Platforms, we regularly run introductory LaTeX workshops
+and drop-in sessions where you can obtain LaTeX help.
+To sign up for a LaTeX workshop and find out about our events,
+go to http://melbourne.resbaz.edu.au.
+You can also contact the author of this chapter at timothy.rice@unimelb.edu.au.
+
+Thank you for reading, and happy LaTeXing!
+
 
 Bibliography
 ----
 
-* Mittelbach, F., Goossens, M., et al. (2004). _The LaTeX companion_. Addison-Wesley Professional.
-* Lamport, L. (1994). _LaTeX: A document preparation system_. Illustrations by Duane Bibby. Addison-Wesley Professional.
-* Oetiker, T., et al. _The not so short introduction to LaTeX2ε_. Retrieved 2017-01-01 from https://tobi.oetiker.ch/lshort/lshort.pdf
-* Knuth, D. E. (1984). _The TEXbook, volume A of Computers and typesetting_. Addison-Wesley.
+[1] Oetiker, T., et al. _The not so short introduction to LaTeX2ε_. Retrieved 2017-01-01 from https://tobi.oetiker.ch/lshort/lshort.pdf.
+[2] ShareLaTeX. _Documentation_. Retrieved 2017-01-01 from https://www.sharelatex.com/learn.
+[3] Knuth, D. E. (1984). _The TEXbook, volume A of Computers and typesetting_. Addison-Wesley.
+[4] Lamport, L. (1994). _LaTeX: A document preparation system_. Illustrations by Duane Bibby. Addison-Wesley Professional.
+[5] Mittelbach, F., Goossens, M., et al. (2004). _The LaTeX companion_. Addison-Wesley Professional.

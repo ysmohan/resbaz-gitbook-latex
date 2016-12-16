@@ -7,6 +7,13 @@ Introduction
 LaTeX is a programming language for beautiful typesetting.
 
 
+### Learning objectives
+
+1. Understand what LaTeX is and how it compares to other document creation tools.
+2. Understand the basic structure of any LaTeX document.
+3. Understand the applicability of LaTeX in a wide variety of disciplines.
+
+
 Background and context
 ----
 

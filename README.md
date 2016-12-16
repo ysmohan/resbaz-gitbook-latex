@@ -319,7 +319,11 @@ Bibliography
 ----
 
 [1] Oetiker, T., et al. _The not so short introduction to LaTeX2ε_. Retrieved 2017-01-01 from https://tobi.oetiker.ch/lshort/lshort.pdf.
+
 [2] ShareLaTeX. _Documentation_. Retrieved 2017-01-01 from https://www.sharelatex.com/learn.
+
 [3] Knuth, D. E. (1984). _The TEXbook, volume A of Computers and typesetting_. Addison-Wesley.
+
 [4] Lamport, L. (1994). _LaTeX: A document preparation system_. Illustrations by Duane Bibby. Addison-Wesley Professional.
+
 [5] Mittelbach, F., Goossens, M., et al. (2004). _The LaTeX companion_. Addison-Wesley Professional.

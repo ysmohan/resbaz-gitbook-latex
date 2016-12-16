@@ -287,6 +287,18 @@ Challenges
 Plenary
 ----
 
+Congratulations for finishing the LaTeX chapter!
+You have already learned:
+
+1. The history, purpose, and diverse uses of LaTeX.
+2. Some programming concepts like compiling and commenting source code.
+3. Some LaTeX-specific concepts like environments and math mode.
+
 
 Bibliography
 ----
+
+* Mittelbach, F., Goossens, M., et al. (2004). _The LaTeX companion_. Addison-Wesley Professional.
+* Lamport, L. (1994). _LaTeX: A document preparation system_. Illustrations by Duane Bibby. Addison-Wesley Professional.
+* Oetiker, T., et al. _The not so short introduction to LaTeX2ε_. Retrieved 2017-01-01 from https://tobi.oetiker.ch/lshort/lshort.pdf
+* Knuth, D. E. (1984). _The TEXbook, volume A of Computers and typesetting_. Addison-Wesley.
